@@ -26,7 +26,7 @@ require 'climate_pledge'
 
 You can fetch the latest signatories using the `signatories` method. For example:
 
-````ruby
+```ruby
 ClimatePledge.signatories
 # [{:name=>"Boom Supersonic",
 #   :logo=>"https://www.theclimatepledge.com/content/dam/amazonclimatepledge/signatory-logo/Boom - Desktop.png",
@@ -66,4 +66,3 @@ If you wish to run the tests, you can do so by running:
 ```bash
 rake test
 ```
-````
