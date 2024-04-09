@@ -1,5 +1,3 @@
-## The Climate Pledge for Ruby
-
 ![The CLimate Pledge](https://www.theclimatepledge.com/content/dam/amazonclimatepledge/logos/new-logo-color.svg)
 
 The Climate Pledge is a commitment to be net-zero carbon by 2040—a decade ahead of the Paris Agreement’s goal of 2050.
@@ -24,10 +22,10 @@ require 'climate_pledge'
 
 ## Fetching the latest signatories
 
-You can fetch the latest signatories using the `fetch` method. For example:
+You can fetch the latest signatories using the `signatories` method. For example:
 
 ````ruby
-ClimatePledge.fetch
+ClimatePledge.signatories
 # [{:name=>"Boom Supersonic",
 #   :logo=>"https://www.theclimatepledge.com/content/dam/amazonclimatepledge/signatory-logo/Boom - Desktop.png",
 #   :link=>"https://www.theclimatepledge.com/content/amazonclimatepledge/us/en/Signatories/boom-supersonic.html",
