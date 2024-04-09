@@ -28,6 +28,7 @@ You can fetch the latest signatories using the `signatories` method. For example
 
 ```ruby
 ClimatePledge.signatories
+
 # [{:name=>"Boom Supersonic",
 #   :logo=>"https://www.theclimatepledge.com/content/dam/amazonclimatepledge/signatory-logo/Boom - Desktop.png",
 #   :link=>"https://www.theclimatepledge.com/content/amazonclimatepledge/us/en/Signatories/boom-supersonic.html",
@@ -42,20 +43,6 @@ ClimatePledge.signatories
 #   :country=>"United States of America",
 #   :industry=>"Services",
 #   :join_date=>#<Date: 2020-06-14 ((2459015j,0s,0n),+0s,2299161j)>},
-#  {:name=>"Cabify",
-#   :logo=>"https://www.theclimatepledge.com/content/dam/amazonclimatepledge/signatory-logo/2022/Cabify.png",
-#   :link=>"https://www.theclimatepledge.com/content/amazonclimatepledge/us/en/Signatories/cabify.html",
-#   :slug=>"cabify",
-#   :country=>"Spain",
-#   :industry=>"Transportation services",
-#   :join_date=>#<Date: 2020-11-29 ((2459183j,0s,0n),+0s,2299161j)>},
-#  {:name=>"Henkel",
-#   :logo=>"https://www.theclimatepledge.com/content/dam/amazonclimatepledge/signatory-logo/Henkel - Desktop.png",
-#   :link=>"https://www.theclimatepledge.com/content/amazonclimatepledge/us/en/Signatories/henkel.html",
-#   :slug=>"henkel",
-#   :country=>"Germany",
-#   :industry=>"Materials",
-#   :join_date=>#<Date: 2020-11-15 ((2459169j,0s,0n),+0s,2299161j)>},
 # ...
 ```
 
@@ -66,3 +53,5 @@ If you wish to run the tests, you can do so by running:
 ```bash
 rake test
 ```
+
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
