@@ -16,7 +16,7 @@ class ClimatePledge
       name: signatory["name"],
       logo: "#{BASE}#{signatory["logoSrc"]}",
       link: "#{BASE}#{signatory["link"]}",
-      slug: signatory["link"].split("/").last.split(".").first,
+      slug: signatory["link"]&.split("/")&.last&.split(".")&.first,
       country: signatory["country"],
       industry: signatory["industryTag"],
       join_date: Date.parse(signatory["joinDate"])

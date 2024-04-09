@@ -13,4 +13,5 @@ Gem::Specification.new do |s|
   s.add_runtime_dependency "open-uri", "~> 0.4.1"
   s.add_runtime_dependency "json", "~> 2.7.2"
   s.add_runtime_dependency "date", "~> 3.3.4"
+  s.add_development_dependency "minitest", "~> 5.22.3"
 end
