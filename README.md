@@ -6,6 +6,8 @@ This Ruby Gem fetches the latest climate pledge signatories from the [Climate Pl
 
 This Gem is not affiliated with The Climate Pledge or Amazon.
 
+[![Gem Version](https://badge.fury.io/rb/climate_pledge.svg)](https://badge.fury.io/rb/climate_pledge)
+
 ## Installation
 
 Add this line to your application's Gemfile:
